@@ -12,14 +12,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-p{
+p {
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -39,11 +41,11 @@ header {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-header img{
+header img {
     height: 5rem;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: inherit;
 }
@@ -57,11 +59,11 @@ header a{
     align-items: flex-end;
 }
 
-#menu >li {
-    margin-bottom: 1em;
+#menu>li {
+    margin-bottom: 1rem;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -69,25 +71,25 @@ header a{
 nav {
     position: absolute;
     background-color: #C0EBA6;
-    color:#001F3F;
-    width:100%;
-    left:0;
-    padding: 0 1rem;
+    color: #001F3F;
+    width: 100%;
+    left: 0;
+    padding: 1rem 1rem 0;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
 
 /* Nav Toggle */
-#nav-toggle:checked~nav{
-    display:block;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -103,4 +105,35 @@ main {
 footer {
     background-color: #347928;
     color: #FFFBE6;
+}
+
+/* Media Query - Tablets and Larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav{
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    background-color: transparent;
+    
+    
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu >li{
+        padding-left: 1rem;
+        margin-bottom: 0;
+        font-size: 130%;
+        color: #FFFBE6;
+    }
 }
