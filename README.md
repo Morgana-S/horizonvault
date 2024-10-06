@@ -1,2 +1,2 @@
-# horizonvault
-A website that acts as a repository of knowledge for the FFXI Server, HorizonXI.
+# Credits
+Favicon Generator - Import and assistance with generating favicon
