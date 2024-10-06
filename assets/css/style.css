@@ -1,0 +1,34 @@
+/* All Content */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Style Rules */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Header Style Rules */
+header {
+    background-color: #347928;
+    color: #FFFBE6;
+}
+
+/* Main Content Style Rules */
+main {
+    background-color: #FFFBE6;
+    color: #001F3F;
+    /* Grows main content to fill entire viewport */
+    flex: 1 0 auto;
+}
+
+/* Footer Style Rules */
+footer {
+    background-color: #347928;
+    color: #FFFBE6;
+}
