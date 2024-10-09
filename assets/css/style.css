@@ -107,6 +107,7 @@ main {
 /* Footer Style Rules */
 footer {
     background-color: #347928;
+    box-shadow: 0px -3px #3a3a3a;
 
 }
 
@@ -139,6 +140,7 @@ footer {
     max-width: 3rem;
     vertical-align: text-top;
 }
+
 
 
 /* Media Query - Tablets and Larger (768px and up) */
