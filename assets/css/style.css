@@ -109,7 +109,7 @@ main {
 
 /* Hero Image Section */
 #hero-image {
-    background: url(../images/ffxi-concept-art-hero-image.jpg) no-repeat 25% 50%/cover;
+    background: url(../images/ffxi-concept-art-hero-image.webp) no-repeat 25% 50%/cover;
     height: 90vh;
     width: 100%;
     position: relative;
@@ -196,7 +196,6 @@ footer {
     /* Hero Image */
 
     #hero-image {
-        background-image: url(//assets/images/ffxi-concept-art-hero-image.jpg) no-repeat center center/cover;
         max-height: 720px;
         max-width: 1200px;
         position: relative;
