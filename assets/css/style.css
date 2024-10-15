@@ -140,11 +140,35 @@ main {
     padding: 1rem 2rem;
 }
 
+.paragraph-text-center a {
+
+    text-decoration: underline;
+    color: #001F3F;
+}
+
 /* Styles for the About HorizonXI Section */
 
 #about-horizon h2 {
     font-size: 200%;
     text-align: center;
+}
+
+/* Starter Quest Page Styles */
+
+#starter-quests-introduction h1 {
+    font-size: 300%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Table Formating for Starter Quests Page */
+
+.starting-city-table {
+    display: none;
+}
+
+.quests-table {
+    display: none;
 }
 
 
@@ -188,6 +212,7 @@ footer {
 .footer-menu p {
     font-size: small;
 }
+
 
 /* Media Query - Tablets and Larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -242,5 +267,45 @@ footer {
     .hero-image-text {
         padding: 1rem;
     }
+
+    /* Starter Quests Page */
+
+    .starting-city-table {
+        display: flex;
+        justify-content: center;
+    }
+
+    .table-image {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    #mobile-viewport-warning {
+        display: none;
+    }
+
+    .quests-table {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        align-items: center;
+        text-align: center;
+        color: #001F3F;
+        border: 2px solid #001F3F;
+    }
+
+    .quests-table td {
+        border: 1px solid #001F3F;
+        padding: 3px;
+        font-size: medium;
+    }
+
+    .quests-table a {
+        text-decoration: underline;
+        color: #001F3F;
+    }
+
+
+
 
 }
