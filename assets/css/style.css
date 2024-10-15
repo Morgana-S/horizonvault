@@ -122,11 +122,31 @@ main {
     position: relative;
 }
 
-#hero-image-text {
+.hero-image-text {
     position: absolute;
-    bottom: 25%;
-    left: 25%;
+    bottom: 10%;
+    left: 3%;
+    background-color: #fffbe6af;
+    font-size: 180%;
+    padding: 0.3rem;
+    border: 2px solid #001F3F
 }
+
+/* Centered Text for Paragraphs Div */
+
+.paragraph-text-center {
+    font-size: larger;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+/* Styles for the About HorizonXI Section */
+
+#about-horizon h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
 
 /* Footer Style Rules */
 footer {
@@ -215,14 +235,12 @@ footer {
     #hero-image {
         max-height: 720px;
         max-width: 1200px;
-        position: relative;
+
 
     }
 
-    #hero-image-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        color: #FFFBE6;
+    .hero-image-text {
+        padding: 1rem;
     }
+
 }
