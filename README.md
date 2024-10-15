@@ -1,7 +1,7 @@
 # HorizonVault - A FFXI Knowledge Repository
 
 <p align="center">
-    <img src="assets/images/hv-logo-blackrainbow.png" alt="HorizonVault Logo">
+    <img src="assets/images/hv-logo-blackrainbow.webp" alt="HorizonVault Logo">
 </p>
 
 ## About
