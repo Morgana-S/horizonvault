@@ -292,6 +292,7 @@ footer {
         text-align: center;
         color: #001F3F;
         border: 2px solid #001F3F;
+        font-family: 'Titillium Web', sans-serif;
     }
 
     .quests-table td {
