@@ -40,6 +40,10 @@ The design of the website was created so that users:
 
 TBC
 
+## Bugs
+
+- 
+
 ## Tools
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Page structure and content.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Page appearance and styling rules.

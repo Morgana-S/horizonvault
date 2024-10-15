@@ -41,10 +41,17 @@ header {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-header img {
+.horizonvault-logo {
     display: flex;
-    height: 5rem;
+    background: url(../images/hv-logo-blackwhite.webp) no-repeat center center / cover;
     width: 5rem;
+    height: 5rem;
+    transition: background-image 0.5s ease 0s;
+    color: transparent;
+}
+
+header img:hover {
+    background-image: Url
 }
 
 header a {
@@ -133,7 +140,7 @@ footer {
     width: 100%;
 }
 
-#footer-menu {
+.footer-menu {
     display: flex;
     flex-direction: row;
     padding: 1rem;
@@ -142,28 +149,38 @@ footer {
     font-size: 3rem;
 }
 
-#footer-menu li {
+.footer-menu li {
     text-align: center;
 }
 
-#footer-menu a {
+.footer-menu a {
     text-decoration: none;
     color: #FFFBE6;
 
 }
 
-#footer-menu img {
+.footer-menu img {
     max-height: 3rem;
     max-width: 3rem;
     vertical-align: text-top;
 }
 
-
+.footer-menu p {
+    font-size: small;
+}
 
 /* Media Query - Tablets and Larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
+    .horizonvault-logo:hover {
+        display: flex;
+        background: url(../images/hv-logo-blackrainbow.webp) no-repeat center center/cover;
+        height: 5rem;
+        width: 5rem;
+
+    }
+
     .header-nav {
         display: block;
         position: relative;
