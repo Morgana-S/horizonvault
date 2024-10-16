@@ -69,16 +69,11 @@ having text in the div for the screen reader to select */
 }
 
 #menu a {
-    background-color: #347928;
-    color: #FFFBE6;
+    background-color: transparent;
+    color: #001F3F;
     text-decoration: none;
-    transition: background-color 0.5s ease 0s
-}
 
-#menu a:hover {
-    background-color: #27581e;
 }
-
 .active-page {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -186,7 +181,6 @@ main {
     align-items: center;
     gap: 2rem;
     margin: 1rem;
-    width: 100vw;
 
 }
 
@@ -358,6 +352,17 @@ footer {
         margin-bottom: 0;
         font-size: 130%;
         color: #FFFBE6;
+    }
+
+    #menu a {
+        background-color: #347928;
+        color: #FFFBE6;
+        text-decoration: none;
+        transition: background-color 0.5s ease 0s
+    }
+    
+    #menu a:hover {
+        background-color: #27581e;
     }
 
     /* Main Content */
