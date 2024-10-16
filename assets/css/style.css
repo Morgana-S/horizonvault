@@ -184,6 +184,7 @@ main {
     flex-direction: column;
     gap: 2rem;
     flex-basis: content;
+    margin: 0 1rem;
 }
 
 
@@ -193,6 +194,7 @@ main {
     flex-direction: column;
     align-items: center;
     border: 2px solid #001F3F;
+    text-align: center;
 }
 
 .paragraph-text-left h2, p{
@@ -209,6 +211,7 @@ main {
     flex-direction: column;
     align-items: center;
     border: 2px solid #001F3F;
+    text-align: center;
 }
 
 .paragraph-text-right h2, p{
@@ -397,5 +400,11 @@ footer {
     .quests-table a {
         text-decoration: underline;
         color: #001F3F;
+    }
+
+    /* Beginner Tips Page */
+
+    .general-tips-flex{
+        flex-direction: row;
     }
 }
