@@ -179,46 +179,57 @@ main {
 }
 
 /* Beginner Tips Page Styles */
-.general-tips-flex{
+.general-tips-flex {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     gap: 2rem;
-    flex-basis: content;
-    margin: 0 1rem;
+    margin: 1rem;
+    width: 100vw;
+
 }
 
 
 /* Paragraph Text Left Stylings */
-.paragraph-text-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.paragraph-text-left {
     border: 2px solid #001F3F;
     text-align: center;
+    max-width: 350px;
+    align-self: flex-start;
+    margin-left: 30%;
+    margin-right: 1rem;
 }
 
-.paragraph-text-left h2, p{
+.left-circle-image{
+    display: none;
+}
+
+.paragraph-text-left h2,
+p {
     padding: 0.2rem 1rem;
 }
 
-.paragraph-text-left hr{
+.paragraph-text-left hr {
     min-width: 50px;
 }
 
 /* Paragraph Text Right Stylings */
-.paragraph-text-right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.paragraph-text-right {
     border: 2px solid #001F3F;
     text-align: center;
+    max-width: 350px;
+    align-self: flex-end;
+    margin-right: 30%;
+    margin-left: 1rem;
 }
 
-.paragraph-text-right h2, p{
+.paragraph-text-right h2,
+p {
     padding: 0.2rem 1rem;
 }
 
-.paragraph-text-right hr{
+.paragraph-text-right hr {
     min-width: 50px;
 }
 
@@ -403,8 +414,20 @@ footer {
     }
 
     /* Beginner Tips Page */
-
     .general-tips-flex{
-        flex-direction: row;
+        width: 80vw;
     }
+
+    .paragraph-text-left{
+        align-self: center;
+        max-width: max-content;
+        position: relative;
+    }
+
+    .paragraph-text-right{
+        align-self: center;
+        max-width: max-content;
+
+    }
+
 }
