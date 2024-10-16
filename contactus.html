@@ -33,16 +33,49 @@
                 <li><a href="index.html" aria-label="Click here to go to the homepage for HorizonVault.">Home</a></li>
                 <li><a href="starterquests.html" aria-label="Click here to go to the starter quests page.">Starter
                         Quests</a></li>
-                <li><a href="beginnertips.html" 
-                        aria-label="Click here to go to the beginner tips page.">Beginner
+                <li><a href="beginnertips.html" aria-label="Click here to go to the beginner tips page.">Beginner
                         Tips</a></li>
-                <li><a href="contactus.html" class="active-page" aria-label="Click here to go to the contact us page.">Contact Us</a></li>
+                <li><a href="contactus.html" class="active-page"
+                        aria-label="Click here to go to the contact us page.">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content -->
     <main>
+        <section id="contact-us-introduction">
+            <div class="paragraph-text-center">
+                <h1>Contact Us</h1>
+                <p>We're always looking for feedback on how to improve our site. If you would like to write to us to
+                    discuss any issues or inaccuracies you've found while browsing here, please complete the contact
+                    form below.</p>
+                <p>Alternatively, if there are any issues with the site layout, please report these on our GitHub <a
+                        href="https://github.com/Morgana-S/horizonvault/issues" target="_blank"
+                        aria-label="Click here to go to this website's GitHub 'Issues' Page. (Opens in a new tab)">Issues</a>
+                    page.
+                </p>
+            </div>
+        </section>
+        <section id="contact-us-form">
+            <div class="form-container">
+                <form action="" method="post" class="contact-us-form">
+                    <label for="full-name" id="label-full-name">Full Name</label>
+                    <input type="text" id="input-full-name" name="full-name">
+                    <label for="email-address" id="label-email-address">Email Address</label>
+                    <input type="email" id="input-email-address" name="email-address">
+                    <label for="contact-reason" id="label-contact-reason">Reason for Contact</label>
+                    <div class="textarea-container">
+                    <textarea name="contact-reason" id="input-contact-reason" rows="10" cols="25"></textarea>
+                    </div>
+                    <br>
+                    <div class="submit-button-container">
+                        <input type="submit" value="Send" id="form-submit-button">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
     </main>
 
     <!-- Footer -->
