@@ -178,9 +178,53 @@ main {
     display: none;
 }
 
+/* Beginner Tips Page Styles */
+.general-tips-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: content;
+}
+
+
+/* Paragraph Text Left Stylings */
+.paragraph-text-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #001F3F;
+}
+
+.paragraph-text-left h2, p{
+    padding: 0.2rem 1rem;
+}
+
+.paragraph-text-left hr{
+    min-width: 50px;
+}
+
+/* Paragraph Text Right Stylings */
+.paragraph-text-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #001F3F;
+}
+
+.paragraph-text-right h2, p{
+    padding: 0.2rem 1rem;
+}
+
+.paragraph-text-right hr{
+    min-width: 50px;
+}
+
+
+
 /* Contact Us Page Styles */
 
 .form-container {
+    display: flex;
     color: #001F3F;
     font-family: 'Titillium Web', sans-serif;
     padding: 1rem;
@@ -354,10 +398,4 @@ footer {
         text-decoration: underline;
         color: #001F3F;
     }
-}
-
-/* Media Queries - Laptop Screens & Larger  */
-@media screen and(min-width: 1200px) {
-
-    /* Header */
 }
