@@ -7,6 +7,8 @@
 ## About
 HorizonVault is a repository of basic knowledge designed for both new and experienced players of the popular private server for Final Fantasy 11, HorizonXI. The purpose of the website is to collate and display static data about the game in an easily accessible, readable format, as well as providing a place to view video examples of ingame practices that new players may find difficult or confusing.
 
+The deployed version can be accessed on GitHub Pages [here.](https://morgana-s.github.io/horizonvault/index.html)
+
 ## UX Design
 
 The design of the website was created so that users:
@@ -49,7 +51,45 @@ The design of the website was created so that users:
 - Responsive design - on small screens like vertical mobiles, a menu icon appears and the links become drop-down when clicked
 - Animated hover effect on tablet screens and larger (though the effect is only visible when hovered over with a mouse)
 
+![Desktop Version of the Nav Bar](/assets/documentation/feature%20images/navbar-tablets-larger.png)
 
+![Mobile Version of the Nav Bar](/assets/documentation/feature%20images/navbar-mobile.png)
+
+![GIF of the website logo hover effect](/assets/documentation/feature%20images/hv-logo-hover.gif)
+
+![Gif of the Nav Bar hover effect](/assets/documentation/feature%20images/navbar-hover.gif)
+
+### Hero Image
+- Website users are drawn in with a hero image featuring art of the game.
+- This image has a heading and subheading overlaid to welcome users to the site.
+- The hero image is responsive, and different parts of the hero image are focused on based on the viewing platform to entice users in.
+
+![Hero Image - Mobile Version](/assets/documentation/feature%20images/hero-image-mobile.png)
+
+![Hero Image - Desktop Version](/assets/documentation/feature%20images/hero-image-desktop.png)
+
+### Footer
+- Footer is present on all pages, and contains labelled icons with links to websites that are relevant to the game.
+- The websites linked to are:
+    - The HorizonXI Website;
+    - The HorizonXI Discord Server;
+    - The HorizonXi Wiki;
+    - The project's GitHub page.
+- All of the above links open in a new window, as is standard practice for external sites.
+- Footer is responsive and easily navigable on both small and larger screens.
+
+![Footer - Mobile Version](/assets/documentation/feature%20images/footer-mobile.png)
+
+![Footer - Desktop Version](/assets/documentation/feature%20images/footer-desktop.png)
+
+### Home Page
+- The Homepage acts as enticement and a brief introduction to the website.
+- It provides information on what the website is for, as well as a little information on the HorizonXI server.
+
+![Home Page - Mobile Version - Hero Image](/assets/documentation/feature%20images/homepage-mobile-1.png)
+![Home Page - Mobile Version - Part Two](/assets/documentation/feature%20images/homepage-mobile-2.png)
+
+![Home Page - Desktop Version](/assets/documentation/feature%20images/homepage-desktop.png)
 ## Bugs
 
 - 
