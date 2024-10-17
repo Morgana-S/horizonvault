@@ -74,6 +74,7 @@ having text in the div for the screen reader to select */
     text-decoration: none;
 
 }
+
 .active-page {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -185,48 +186,41 @@ main {
 }
 
 
-/* Paragraph Text Left Stylings */
-.paragraph-text-left {
+/* "Card Tip Left" Stylings */
+.card-tip-left {
     border: 2px solid #001F3F;
+    border-radius: 5px;
+    background-color: #001F3F;
+    color: #FFFBE6;
     text-align: center;
     max-width: 350px;
     align-self: flex-start;
-    margin-left: 30%;
-    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 30%;
 }
 
-.left-circle-image{
-    display: none;
-}
-
-.paragraph-text-left h2,
-p {
-    padding: 0.2rem 1rem;
-}
-
-.paragraph-text-left hr {
-    min-width: 50px;
-}
-
-/* Paragraph Text Right Stylings */
-.paragraph-text-right {
+/* "Card Tip Right" Stylings */
+.card-tip-right {
     border: 2px solid #001F3F;
+    border-radius: 5px;
     text-align: center;
     max-width: 350px;
     align-self: flex-end;
-    margin-right: 30%;
-    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 30%;
 }
 
-.paragraph-text-right h2,
-p {
+/* Mutual "Card Tip" Stylings */
+
+.card-tip-left h2~p,
+.card-tip-right h2~p {
     padding: 0.2rem 1rem;
 }
 
-.paragraph-text-right hr {
-    min-width: 50px;
+.card-tip-left hr,
+.card-tip-right hr {
+    margin: 0 1rem;
 }
-
 
 
 /* Contact Us Page Styles */
@@ -360,7 +354,7 @@ footer {
         text-decoration: none;
         transition: background-color 0.5s ease 0s
     }
-    
+
     #menu a:hover {
         background-color: #27581e;
     }
@@ -419,20 +413,14 @@ footer {
     }
 
     /* Beginner Tips Page */
-    .general-tips-flex{
+    .general-tips-flex {
         width: 80vw;
     }
 
-    .paragraph-text-left{
+    .card-tip-left,
+    .card-tip-right {
         align-self: center;
         max-width: max-content;
-        position: relative;
-    }
-
-    .paragraph-text-right{
-        align-self: center;
-        max-width: max-content;
-
     }
 
 }
