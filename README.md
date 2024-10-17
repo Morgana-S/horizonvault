@@ -38,7 +38,17 @@ The design of the website was created so that users:
 
 ## Features
 
-TBC
+### Navigation Bar
+- Navigation Bar with fixed position at the top of the page.
+- Contains links to the following site pages:
+    - Horizon Logo; clicking logo takes to the index page as is standard practice on many websites;
+    - Home - takes to the index page with clearer navigation;
+    - Starter Quests - goes to the Starter Quests Page;
+    - Beginner Tips - goes to the Beginner Tips Page;
+    - Contact Us - goes to the Contact us form page.
+- Responsive design - on small screens like vertical mobiles, a menu icon appears and the links become drop-down when clicked
+- Animated hover effect on tablet screens and larger (though the effect is only visible when hovered over with a mouse)
+
 
 ## Bugs
 
