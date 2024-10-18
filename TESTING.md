@@ -94,3 +94,20 @@ Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, 
 ![W3C CSS Validation](/assets/documentation/testing%20images/validation-css.png)
 
 # Accessibility
+Accessibility for each page was tested using Lighthouse in Chrome's Dev Tools. This confirms accessibility and performance criteria for each page.
+
+- Home Page
+
+![Lighthouse Report - Homepage](/assets/documentation/testing%20images/accessibility-lighthouse-homepage.png)
+
+- Starter Quests Page
+
+![Lighthouse Report - Starter Quests](/assets/documentation/testing%20images/accessibility-lighthouse-starterquests.png)
+
+- Beginner Tips Page
+
+![Lighthouse Report - Beginner Tips](/assets/documentation/testing%20images/accessibility-lighthouse-beginnertips.png)
+
+- Contact Us Page
+
+![Lighthouse Report - Contact Us](/assets/documentation/testing%20images/accessibility-lighthouse-contactus.png)
