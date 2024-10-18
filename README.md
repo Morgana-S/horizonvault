@@ -138,6 +138,7 @@ The design of the website was created so that users:
 - [Github Desktop](https://desktop.github.com/download/) - Additional version control.
 - [Github](https://github.com/) - Project Hosting.
 - [Github Pages](https://pages.github.com/) - Project Deployment.
+- [Licecap](https://www.cockos.com/licecap/) - Screen recording GIFs for responsiveness demonstration testing.
 
 ## Deployment
 ### Deployment to GitHub Pages

@@ -54,3 +54,22 @@
     - This has now been fixed by adding the "required" attribute for both input elements. This has not been added to the "email" input as this self-validates by checking for an email address.
 
 ## Responsiveness
+All pages are responsive in design and designed with a mobile-first design principle. Of particular note are the following features:
+- Mobile:
+    - The Nav Bar is a drop down menu on vertical mobile screens to allow for better use of screen real-estate.
+    - On the Starter Quests page, the quest tables are not visible on a vertical mobile due to their size. There is a warning that advises users to rotate their phone or access the site on a larger screen (such as a tablet or laptop) to see the tables.
+- All pages use CSS Flexbox to ensure that page responsiveness is achieved.
+
+### Responsiveness Screenshot GIFs
+
+#### Home Page
+![Home Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-home-page-responsiveness.gif)
+
+#### Starter Quests Page
+![Starter Quests Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-starter-page-responsiveness.gif)
+
+#### Beginner Tips Page
+![Beginner Tips Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-beginner-tips-page-responsiveness.gif)
+
+#### Contact Us Page
+![Contact Us Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-contact-us-page-responsiveness.gif)
