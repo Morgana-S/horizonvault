@@ -78,4 +78,19 @@ All pages are responsive in design and designed with a mobile-first design princ
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
 
 ## Home Page
+![Home Page - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-homepage.png)
 
+## Starter Quests Page
+![Starter Quests - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-starterquests.png)
+
+## Beginner Tips Page
+![Beginner Tips - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-beginnertips.png)
+
+## Contact Us Page
+- Please note: An error occurs as the form on the Contact Us page does not have a location to post to. This is intended behaviour as submitting the form to a site is outside the scope of this project.
+![Contact Us - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-contactus.png)
+
+## Project CSS Validation
+![W3C CSS Validation](/assets/documentation/testing%20images/validation-css.png)
+
+# Accessibility
