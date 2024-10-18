@@ -155,6 +155,12 @@ main {
     color: #001F3F;
 }
 
+/* Hidden Heading for Introduction Section */
+
+.hidden-heading{
+    display: none;
+}
+
 /* Styles for the About HorizonXI Section */
 
 #about-horizon h2 {

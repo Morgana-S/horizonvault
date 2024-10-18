@@ -127,7 +127,7 @@ The design of the website was created so that users:
 - For Testing and Bugs, please view the TESTING.md file.
 
 ## Validation & Accessibility
-- For information on each page's Validation & Accessibility features, please the the VALIDATION.md file.
+- For information on each page's Validation & Accessibility features, please the the TESTING.md file.
 
 ## Tools
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Page structure and content.

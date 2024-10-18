@@ -73,3 +73,9 @@ All pages are responsive in design and designed with a mobile-first design princ
 
 #### Contact Us Page
 ![Contact Us Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-contact-us-page-responsiveness.gif)
+
+# Validation
+Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
+
+## Home Page
+
