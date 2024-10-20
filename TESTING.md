@@ -5,15 +5,15 @@
     - Mobile
     - Chrome DevTools Tablet Mode (simulating an iPad Pro)
 
-![Testing - Desktop PC - Microsoft Edge](/assets/documentation/testing%20images/testing-homepage-edge.png)
+![Testing - Desktop PC - Microsoft Edge](/assets/documentation/testing-images/testing-homepage-edge.png)
 
-![Testing - Desktop PC - Mozilla Firefox](/assets/documentation/testing%20images/testing-homepage-firefox.png)
+![Testing - Desktop PC - Mozilla Firefox](/assets/documentation/testing-images/testing-homepage-firefox.png)
 
-![Testing - Desktop PC - Google Chrome](/assets/documentation/testing%20images/testing-homepage-chrome.png)
+![Testing - Desktop PC - Google Chrome](/assets/documentation/testing-images/testing-homepage-chrome.png)
 
-![Testing - Mobile](/assets/documentation/testing%20images/testing-homepage-mobile.png)
+![Testing - Mobile](/assets/documentation/testing-images/testing-homepage-mobile.png)
 
-![Testing - Chrome DevTools - iPad Pro Simulation](/assets/documentation/testing%20images/testing-devtools-ipad.png)
+![Testing - Chrome DevTools - iPad Pro Simulation](/assets/documentation/testing-images/testing-devtools-ipad.png)
 
 ## Features Testing
 - The following tests were conducted to ensure features were working as intended:
@@ -63,51 +63,51 @@ All pages are responsive in design and designed with a mobile-first design princ
 ### Responsiveness Screenshot GIFs
 
 #### Home Page
-![Home Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-home-page-responsiveness.gif)
+![Home Page - Responsiveness GIF](/assets/documentation/testing-images/testing-home-page-responsiveness.gif)
 
 #### Starter Quests Page
-![Starter Quests Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-starter-page-responsiveness.gif)
+![Starter Quests Page - Responsiveness GIF](/assets/documentation/testing-images/testing-starter-page-responsiveness.gif)
 
 #### Beginner Tips Page
-![Beginner Tips Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-beginner-tips-page-responsiveness.gif)
+![Beginner Tips Page - Responsiveness GIF](/assets/documentation/testing-images/testing-beginner-tips-page-responsiveness.gif)
 
 #### Contact Us Page
-![Contact Us Page - Responsiveness GIF](/assets/documentation/testing%20images/testing-contact-us-page-responsiveness.gif)
+![Contact Us Page - Responsiveness GIF](/assets/documentation/testing-images/testing-contact-us-page-responsiveness.gif)
 
 # Validation
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
 
 ## Home Page
-![Home Page - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-homepage.png)
+![Home Page - W3C HTML Validation](/assets/documentation/testing-images/validation-html-homepage.png)
 
 ## Starter Quests Page
-![Starter Quests - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-starterquests.png)
+![Starter Quests - W3C HTML Validation](/assets/documentation/testing-images/validation-html-starterquests.png)
 
 ## Beginner Tips Page
-![Beginner Tips - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-beginnertips.png)
+![Beginner Tips - W3C HTML Validation](/assets/documentation/testing-images/validation-html-beginnertips.png)
 
 ## Contact Us Page
 - Please note: An error occurs as the form on the Contact Us page does not have a location to post to. This is intended behaviour as submitting the form to a site is outside the scope of this project.
-![Contact Us - W3C HTML Validation](/assets/documentation/testing%20images/validation-html-contactus.png)
+![Contact Us - W3C HTML Validation](/assets/documentation/testing-images/validation-html-contactus.png)
 
 ## Project CSS Validation
-![W3C CSS Validation](/assets/documentation/testing%20images/validation-css.png)
+![W3C CSS Validation](/assets/documentation/testing-images/validation-css.png)
 
 # Accessibility
 Accessibility for each page was tested using Lighthouse in Chrome's Dev Tools. This confirms accessibility and performance criteria for each page.
 
 - Home Page
 
-![Lighthouse Report - Homepage](/assets/documentation/testing%20images/accessibility-lighthouse-homepage.png)
+![Lighthouse Report - Homepage](/assets/documentation/testing-images/accessibility-lighthouse-homepage.png)
 
 - Starter Quests Page
 
-![Lighthouse Report - Starter Quests](/assets/documentation/testing%20images/accessibility-lighthouse-starterquests.png)
+![Lighthouse Report - Starter Quests](/assets/documentation/testing-images/accessibility-lighthouse-starterquests.png)
 
 - Beginner Tips Page
 
-![Lighthouse Report - Beginner Tips](/assets/documentation/testing%20images/accessibility-lighthouse-beginnertips.png)
+![Lighthouse Report - Beginner Tips](/assets/documentation/testing-images/accessibility-lighthouse-beginnertips.png)
 
 - Contact Us Page
 
-![Lighthouse Report - Contact Us](/assets/documentation/testing%20images/accessibility-lighthouse-contactus.png)
+![Lighthouse Report - Contact Us](/assets/documentation/testing-images/accessibility-lighthouse-contactus.png)
