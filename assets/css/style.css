@@ -219,9 +219,11 @@ main {
 
 /* Mutual "Card Tip" Stylings */
 
-.card-tip-left h2~p,
-.card-tip-right h2~p {
-    padding: 0.2rem 1rem;
+.card-tip-left h2,
+.card-tip-left p,
+.card-tip-right h2,
+.card-tip-right p {
+    padding: 1rem;
 }
 
 .card-tip-left hr,
