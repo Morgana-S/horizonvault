@@ -308,8 +308,8 @@ footer {
 }
 
 .footer-menu img {
-    max-height: 3rem;
-    max-width: 3rem;
+    height: 3rem;
+    width: 3rem;
     vertical-align: text-top;
 }
 
