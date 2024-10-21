@@ -164,6 +164,6 @@ The design of the website was created so that users:
 - [Final Fantasy 11](http://www.playonline.com/ff11us/topics/special/200803_qLjWx/imgs/thevoraciousresurgence_l.jpg) - Hero image used on home page.
 - [Google Fonts](https://fonts.google.com/) - Importing of Fonts used within the project (Bebas Neue & Titillium Web)
 - [Font Awesome](https://fontawesome.com/) - Icons and Script for use of Icons within project
-- [HorizonXI Homepage](https://horizonxi.com/) - Use of their logo for a link to their website in the footer
+- [HorizonXI](https://horizonxi.com/) - Use of their logo for a link to their website in the footer, use of the mandragora art on their [Partner Program Page](https://horizonxi.com/partner-program).
 - [Final Fantasy 11 Wiki](https://ffxiclopedia.fandom.com/wiki/Main_Page) - use of icons for the cities on the Starter Quest Page.
 - [Discord](https://discord.com/) - Logo for the Discord link in the footer.
