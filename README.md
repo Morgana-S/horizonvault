@@ -1,6 +1,6 @@
 # HorizonVault - A FFXI Knowledge Repository
 
-![Showcase of responsiveness of webpages](/assets/documentation/feature-images/responsive-design-showcase.png)
+![Showcase of responsiveness of webpages](/documentation/feature-images/responsive-design-showcase.png)
 
 ## About
 HorizonVault is a repository of basic knowledge designed for both new and experienced players of the popular private server for Final Fantasy 11, HorizonXI. The purpose of the website is to collate and display static data about the game in an easily accessible, readable format, as well as providing a place to view video examples of ingame practices that new players may find difficult or confusing.
@@ -50,22 +50,22 @@ The design of the website was created so that users:
 - Animated hover effect on tablet screens and larger (though the effect is only visible when hovered over with a mouse).
 - A class has been used to designated the active page on the Nav Bar by underlining the page link, allowing users to understand where they are on the website at a glance.
 
-![Desktop Version of the Nav Bar](/assets/documentation/feature-images/navbar-tablets-larger.png)
+![Desktop Version of the Nav Bar](/documentation/feature-images/navbar-tablets-larger.png)
 
-![Mobile Version of the Nav Bar](/assets/documentation/feature-images/navbar-mobile.png)
+![Mobile Version of the Nav Bar](/documentation/feature-images/navbar-mobile.png)
 
-![GIF of the website logo hover effect](/assets/documentation/feature-images/hv-logo-hover.gif)
+![GIF of the website logo hover effect](/documentation/feature-images/hv-logo-hover.gif)
 
-![Gif of the Nav Bar hover effect](/assets/documentation/feature-images/navbar-hover.gif)
+![Gif of the Nav Bar hover effect](/documentation/feature-images/navbar-hover.gif)
 ---
 ### Hero Image
 - Website users are drawn in with a hero image featuring art of the game.
 - This image has a heading and subheading overlaid to welcome users to the site.
 - The hero image is responsive, and different parts of the hero image are focused on based on the viewing platform to entice users in.
 
-![Hero Image - Mobile Version](/assets/documentation/feature-images/hero-image-mobile.png)
+![Hero Image - Mobile Version](/documentation/feature-images/hero-image-mobile.png)
 
-![Hero Image - Desktop Version](/assets/documentation/feature-images/hero-image-desktop.png)
+![Hero Image - Desktop Version](/documentation/feature-images/hero-image-desktop.png)
 ---
 ### Footer
 - Footer is present on all pages, and contains labelled icons with links to websites that are relevant to the game.
@@ -77,18 +77,18 @@ The design of the website was created so that users:
 - All of the above links open in a new window, as is standard practice for external sites.
 - Footer is responsive and easily navigable on both small and larger screens.
 
-![Footer - Mobile Version](/assets/documentation/feature-images/footer-mobile.png)
+![Footer - Mobile Version](/documentation/feature-images/footer-mobile.png)
 
-![Footer - Desktop Version](/assets/documentation/feature-images/footer-desktop.png)
+![Footer - Desktop Version](/documentation/feature-images/footer-desktop.png)
 ---
 ### Home Page
 - The Homepage acts as enticement and a brief introduction to the website.
 - It provides information on what the website is for, as well as a little information on the HorizonXI server.
 
-![Home Page - Mobile Version - Hero Image](/assets/documentation/feature-images/homepage-mobile-1.png)
-![Home Page - Mobile Version - Part Two](/assets/documentation/feature-images/homepage-mobile-2.png)
+![Home Page - Mobile Version - Hero Image](/documentation/feature-images/homepage-mobile-1.png)
+![Home Page - Mobile Version - Part Two](/documentation/feature-images/homepage-mobile-2.png)
 
-![Home Page - Desktop Version](/assets/documentation/feature-images/homepage-desktop.png)
+![Home Page - Desktop Version](/documentation/feature-images/homepage-desktop.png)
 ---
 ### Starter Quests Page
 - The Starter Quests Page provides data on quests available to newer players of the game.
@@ -96,11 +96,11 @@ The design of the website was created so that users:
 - The page has the option to select from quests in a particular city by selecting the image of the city's icon, which takes the user to the appropriate part of the page.
 - On vertical mobile devices, the tables are too bulky to display in a reasonable fashion. A warning message exists for vertical mobile users to either rotate their phone horizontally or view the table on a tablet or laptop screen.
 
-![Starter Quests - Mobile Version](/assets/documentation/feature-images/starter-quests-mobile.png)
+![Starter Quests - Mobile Version](/documentation/feature-images/starter-quests-mobile.png)
 
-![Starter Quests - Desktop Version](/assets/documentation/feature-images/starter-quests-desktop.png)
+![Starter Quests - Desktop Version](/documentation/feature-images/starter-quests-desktop.png)
 
-![Starter Quests - Navigation to Different Sections](/assets/documentation/feature-images/starter-quests-in-page-navigation.png)
+![Starter Quests - Navigation to Different Sections](/documentation/feature-images/starter-quests-in-page-navigation.png)
 ---
 ### Beginner Tips Page
 - The Beginner Tips Page provides helpful advice to new players of the game.
@@ -108,9 +108,9 @@ The design of the website was created so that users:
 - I have used alternating CSS classes to create 'cards' where the tips can be placed within. By alternating these cards, it keeps the page's structure interesting.
 - The cards are also responsive and adjust their size on mobile devices.
 
-![Beginner Tips - Mobile Version](/assets/documentation/feature-images/beginner-tips-mobile.png)
+![Beginner Tips - Mobile Version](/documentation/feature-images/beginner-tips-mobile.png)
 
-![Beginner Tips - Desktop Version](/assets/documentation/feature-images/beginner-tips-desktop.png)
+![Beginner Tips - Desktop Version](/documentation/feature-images/beginner-tips-desktop.png)
 ---
 ### Contact Us Page
 - The Contact Us page contains a form where the user can provide their contact information and a brief message about their query.
@@ -119,9 +119,9 @@ The design of the website was created so that users:
     - The Email Address field validates for whether the user has included a correctly formated email address, i.e. it checks for an @ symbol in the text entry field.
     - A textarea field with a specified number of columns has been created for the user's reason for contact, to ensure that there is adequate space for the user to enter their query.
 
-![Contact Us - Mobile Version](/assets/documentation/feature-images/contact-us-mobile.png)
+![Contact Us - Mobile Version](/documentation/feature-images/contact-us-mobile.png)
 
-![Contact Us - Desktop Version](/assets/documentation/feature-images/contact-us-desktop.png)
+![Contact Us - Desktop Version](/documentation/feature-images/contact-us-desktop.png)
 
 ## Testing & Bugs
 - For Testing and Bugs, please view the TESTING.md file.
