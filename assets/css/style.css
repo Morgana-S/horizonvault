@@ -140,13 +140,17 @@ main {
 .paragraph-text-center {
     font-size: larger;
     text-align: center;
-    padding: 1rem 2rem;
-    margin: 2rem 0rem;
+    padding: 0rem 2rem;
+    margin: 2rem 0 3rem 0;
 }
 
 .paragraph-text-center h1 {
     font-size: 300%;
-    margin-top: 1rem;
+    text-align: center;
+}
+
+.paragraph-text-center h2{
+    font-size: 200%;
     text-align: center;
 }
 
@@ -162,14 +166,14 @@ main {
     display: none;
 }
 
-/* Styles for the About HorizonXI Section */
+/* Starter Quest Page Styles */
 
-#about-horizon h2 {
-    font-size: 200%;
-    text-align: center;
+/* Whitespace Element at bottom of Starter Quests & Beginner Tips */
+
+.whitespace-element{
+    height: 3rem;
 }
 
-/* Starter Quest Page Styles */
 
 /* Table Formating for Starter Quests Page */
 
@@ -230,7 +234,6 @@ main {
 .card-tip-right hr {
     margin: 0 1rem;
 }
-
 
 /* Contact Us Page Styles */
 
