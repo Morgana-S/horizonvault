@@ -91,7 +91,7 @@ The design of the website was created so that users:
 ![Home Page - Desktop Version](/assets/documentation/feature-images/homepage-desktop.png)
 ---
 ### Starter Quests Page
-- The Starter Quests Page provided data on quests available to newer players of the game.
+- The Starter Quests Page provides data on quests available to newer players of the game.
 - This information is arranged in a table format, with info on things that would be of interest to users, such where to start the quest, rewards, and useful notes about the quests.
 - The page has the option to select from quests in a particular city by selecting the image of the city's icon, which takes the user to the appropriate part of the page.
 - On vertical mobile devices, the tables are too bulky to display in a reasonable fashion. A warning message exists for vertical mobile users to either rotate their phone horizontally or view the table on a tablet or laptop screen.
@@ -105,7 +105,7 @@ The design of the website was created so that users:
 ### Beginner Tips Page
 - The Beginner Tips Page provides helpful advice to new players of the game.
 - The page's design is simple and is focused on scalability while maintaining an interesting format.
-- I have used alternating CSS features to create 'cards' where the tips can be placed within. By alternating these cards, it keeps the page's structure interesting.
+- I have used alternating CSS classes to create 'cards' where the tips can be placed within. By alternating these cards, it keeps the page's structure interesting.
 - The cards are also responsive and adjust their size on mobile devices.
 
 ![Beginner Tips - Mobile Version](/assets/documentation/feature-images/beginner-tips-mobile.png)
