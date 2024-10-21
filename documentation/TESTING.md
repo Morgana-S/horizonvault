@@ -57,6 +57,9 @@
     - Will strive to increment commits in smaller, more manageable sections in future projects.
 - Commit messages are too long and generally formatted in past tense rather than present tense.
     - All future commit messages to be kept to 80 characters or less where possible and commit messages to be written in present tense. (i.e. "moved x to y folder" becomes "move x to y folder") to maintain standards.
+- "Starter Quest" page body was not displaying correctly, with a white space between the header and the main content. 
+    - This was caused by an errant text character being displayed outside of the sections of the main content.
+    - Text character was removed in commit 723f7f1, fixing the issue.
 
 
 ## Responsiveness
