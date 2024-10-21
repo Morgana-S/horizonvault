@@ -48,10 +48,16 @@
 - The deployed website was tested by two friends using both desktop and mobile devices. Testing methodology was followed in line with the above tests conducted.
     - Both testers found that the website was intuitive to them and easy to use. Both friends are members of the target audience for the site (i.e. people who play on the HorizonXI server).
 
-## Bugs
+## Bugs & Feedback
 - While testing the Contact Us form, validation was not being performed for the "Full Name" and "Reason for Contact" fields. 
     - This is caused by the HTML input for these fields not having the "required" attribute.
     - This has now been fixed by adding the "required" attribute for both input elements. This has not been added to the "email" input as this self-validates by checking for an email address.
+- Content added in commit "257b11e" was too large, defying best practices for version control.
+    - Acknowledged that the commit was too large with a comment left on the commit itself.
+    - Will strive to increment commits in smaller, more manageable sections in future projects.
+- Commit messages are too long and generally formatted in past tense rather than present tense.
+    - All future commit messages to be kept to 80 characters or less where possible and commit messages to be written in present tense. (i.e. "moved x to y folder" becomes "move x to y folder") to maintain standards.
+
 
 ## Responsiveness
 All pages are responsive in design and designed with a mobile-first design principle. Of particular note are the following features:
