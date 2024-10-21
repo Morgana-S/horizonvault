@@ -52,6 +52,9 @@
 - While testing the Contact Us form, validation was not being performed for the "Full Name" and "Reason for Contact" fields. 
     - This is caused by the HTML input for these fields not having the "required" attribute.
     - This has now been fixed by adding the "required" attribute for both input elements. This has not been added to the "email" input as this self-validates by checking for an email address.
+- While testing the Contact Us form, submitting the form would lead to a 503 Service Unavailable error on GitHub Pages.
+    - This is because the method for the form was "post", despite not having a url to post the form information to.
+    - To confirm the form submission was working correctly, form method was changed to "get" and a confirmation page, "form-submitted.html" was designated the action.
 - Content added in commit "257b11e" was too large, defying best practices for version control.
     - Acknowledged that the commit was too large with a comment left on the commit itself.
     - Will strive to increment commits in smaller, more manageable sections in future projects.
@@ -59,8 +62,7 @@
     - All future commit messages to be kept to 80 characters or less where possible and commit messages to be written in present tense. (i.e. "moved x to y folder" becomes "move x to y folder") to maintain standards.
 - "Starter Quest" page body was not displaying correctly, with a white space between the header and the main content. 
     - This was caused by an errant text character being displayed outside of the sections of the main content.
-    - Text character was removed in commit 723f7f1, fixing the issue.
-
+    - Text character was removed in commit "723f7f1", fixing the issue.
 
 ## Responsiveness
 All pages are responsive in design and designed with a mobile-first design principle. Of particular note are the following features:
