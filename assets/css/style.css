@@ -157,7 +157,7 @@ main {
 
 /* Hidden Heading for Introduction Section */
 
-.hidden-heading{
+.hidden-heading {
     display: none;
 }
 
@@ -296,6 +296,8 @@ footer {
 
 .footer-menu li {
     text-align: center;
+    transition: background-color 0.5s ease 0s;
+    padding: 0 1rem;
 }
 
 .footer-menu a {
@@ -427,6 +429,11 @@ footer {
     .card-tip-right {
         align-self: center;
         max-width: max-content;
+    }
+
+    /* Footer */
+    .footer-menu li:hover {
+        background-color: #27581e;
     }
 
 }
