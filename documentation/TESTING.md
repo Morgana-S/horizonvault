@@ -47,6 +47,7 @@
 ## Peer Reviewed Testing
 - The deployed website was tested by two friends using both desktop and mobile devices. Testing methodology was followed in line with the above tests conducted.
     - Both testers found that the website was intuitive to them and easy to use. Both friends are members of the target audience for the site (i.e. people who play on the HorizonXI server).
+    - Their feedback and responses to it have been marked in the section below as **[Feedback]**.
 
 ## Bugs & Feedback
 - While testing the Contact Us form, validation was not being performed for the "Full Name" and "Reason for Contact" fields. 
@@ -58,12 +59,12 @@
 - Content added in commit "257b11e" was too large, defying best practices for version control.
     - Acknowledged that the commit was too large with a comment left on the commit itself.
     - Will strive to increment commits in smaller, more manageable sections in future projects.
-- Commit messages are too long and generally formatted in past tense rather than present tense.
+- **[Feedback]** Commit messages are too long and generally formatted in past tense rather than present tense.
     - All future commit messages to be kept to 80 characters or less where possible and commit messages to be written in present tense. (i.e. "moved x to y folder" becomes "move x to y folder") to maintain standards.
 - "Starter Quest" page body was not displaying correctly, with a white space between the header and the main content. 
     - This was caused by an errant text character being displayed outside of the sections of the main content.
     - Text character was removed in commit "723f7f1", fixing the issue.
-- Hovering over items in the footer highlights the individual navigation list elements, but the entirety of the li is not clickable, which means that it is possible to click an area that darkens when hovering, and have the area not be interactable.
+- **[Feedback]** Hovering over items in the footer highlights the individual navigation list elements, but the entirety of the li is not clickable, which means that it is possible to click an area that darkens when hovering, and have the area not be interactable.
     - When designing for future projects that require a navigation bar, I will ensure that the entirety of the element's hover area is clickable for ease of use by end-users.
 
 ## Responsiveness
