@@ -433,6 +433,7 @@ footer {
 
     #form-submit-button:hover {
         background-color: #003972;
+        cursor: pointer;
     }
 
     /* Footer */
