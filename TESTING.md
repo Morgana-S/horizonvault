@@ -110,8 +110,7 @@ Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, 
 ## Project CSS Validation
 ![W3C CSS Validation](/documentation/testing-images/validation-css.png)
 
-# Accessibility
-Accessibility for each page was tested using Lighthouse in Chrome's Dev Tools. This confirms accessibility and performance criteria for each page.
+# Lighthouse Reports
 
 - Home Page
 
