@@ -89,6 +89,9 @@ All pages are responsive in design and designed with a mobile-first design princ
 #### Contact Us Page
 ![Contact Us Page - Responsiveness GIF](/documentation/testing-images/testing-contact-us-page-responsiveness.gif)
 
+#### Form Submitted Page
+![Form Submitted Page - Responsiveness GIF](/documentation/testing-images/testing-form-submitted-responsiveness.gif)
+
 # Validation
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
 
@@ -102,7 +105,6 @@ Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, 
 ![Beginner Tips - W3C HTML Validation](/documentation/testing-images/validation-html-beginnertips.png)
 
 ## Contact Us Page
-- Please note: An error occurs as the form on the Contact Us page does not have a location to post to. This is intended behaviour as submitting the form to a site is outside the scope of this project.
 ![Contact Us - W3C HTML Validation](/documentation/testing-images/validation-html-contactus.png)
 
 ## Project CSS Validation
