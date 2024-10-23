@@ -16,19 +16,43 @@
 ### DevTools iPad Pro Simulation
 ![Testing - Chrome DevTools - iPad Pro Simulation](/documentation/testing-images/testing-devtools-ipad.png)
 
+## Responsiveness
+All pages are responsive in design and designed with a mobile-first design principle. Of particular note are the following features:
+- Mobile:
+    - The Nav Bar is a drop down menu on vertical mobile screens to allow for better use of screen real-estate.
+    - On the Starter Quests page, the quest tables are not visible on a vertical mobile due to their size. There is a warning that advises users to rotate their phone or access the site on a larger screen (such as a tablet or laptop) to see the tables.
+- All pages use CSS Flexbox to ensure that page responsiveness is achieved.
+
+### Responsiveness Screenshot GIFs
+
+#### Home Page
+![Home Page - Responsiveness GIF](/documentation/testing-images/testing-home-page-responsiveness.gif)
+
+#### Starter Quests Page
+![Starter Quests Page - Responsiveness GIF](/documentation/testing-images/testing-starter-page-responsiveness.gif)
+
+#### Beginner Tips Page
+![Beginner Tips Page - Responsiveness GIF](/documentation/testing-images/testing-beginner-tips-page-responsiveness.gif)
+
+#### Contact Us Page
+![Contact Us Page - Responsiveness GIF](/documentation/testing-images/testing-contact-us-page-responsiveness.gif)
+
+#### Form Submitted Page
+![Form Submitted Page - Responsiveness GIF](/documentation/testing-images/testing-form-submitted-responsiveness.gif)
+
 ## Manual Testing
 - The following tests were conducted to ensure features were working as intended:
     - Nav Bar:
-        - (Mobile & Desktop) Click on the Logo - redirects to the Home page;
-        - (Mobile) Click on the menu icon - drop down list appears displaying Nav Bar Options;
-        - (Mobile & Desktop) Click on the Home link on Nav Bar - redirects to Home page;
-        - (Mobile & Desktop) Click on the Starter Quests Link on Nav Bar - redirects to Starter Quests page;
-        - (Mobile & Desktop) Click on the Beginner Tips link on Nav Bar - redirects to Beginner Tips page;
+        - (Mobile & Desktop) Click on the Logo - redirects to the Home page.
+        - (Mobile) Click on the menu icon - drop down list appears displaying Nav Bar Options.
+        - (Mobile & Desktop) Click on the Home link on Nav Bar - redirects to Home page.
+        - (Mobile & Desktop) Click on the Starter Quests Link on Nav Bar - redirects to Starter Quests page.
+        - (Mobile & Desktop) Click on the Beginner Tips link on Nav Bar - redirects to Beginner Tips page.
         - (Mobile & Desktop) Click on the Contact Us link on Nav Bar - redirects to Contact Us page.
     - Footer:
-        - (Mobile & Desktop) Click on the HorizonXI Website icon on Footer - opens a new tab to the HorizonXI Website;
-        - (Mobile & Desktop) Click on the Discord icon on Footer - opens a new tab to the HorizonXI Discord server;
-        - (Mobile & Desktop) Click on the HorizonXI Wiki icon on Footer - opens a new tab to the HorizonXI Wiki;
+        - (Mobile & Desktop) Click on the HorizonXI Website icon on Footer - opens a new tab to the HorizonXI Website.
+        - (Mobile & Desktop) Click on the Discord icon on Footer - opens a new tab to the HorizonXI Discord server.
+        - (Mobile & Desktop) Click on the HorizonXI Wiki icon on Footer - opens a new tab to the HorizonXI Wiki.
         - (Mobile & Desktop) Click on the GitHub icon on Footer - opens a new tab to the project's GitHub page.
     - Home Page:
         - Nav Bar and Footer works correctly, as detailed above.
@@ -44,6 +68,9 @@
         - Full Name Input was not being validated at the time of testing - please see bugs section below. This has now been rectified to validate for input.
         - Email submission field was tested by just putting random characters - confirmed that form will ask for correctly formated email address before submission is allowed.
         - Reason for Contact Input was not being validated at the time of testing - please see bugs section below. This has now been rectified to validate for input.
+    - Form Submitted Page
+        - Nav Bar and Footer works correctly, as detailed above.
+        - Clicked link to go back to home page- redirects to home page.
 
 ## Peer Reviewed Testing
 - The deployed website was tested by two friends using both desktop and mobile devices. Testing methodology was followed in line with the above tests conducted.
@@ -68,29 +95,7 @@
 - **[Feedback]** Hovering over items in the footer highlights the individual navigation list elements, but the entirety of the li is not clickable, which means that it is possible to click an area that darkens when hovering, and have the area not be interactable.
     - When designing for future projects that require a navigation bar, I will ensure that the entirety of the element's hover area is clickable for ease of use by end-users.
 
-## Responsiveness
-All pages are responsive in design and designed with a mobile-first design principle. Of particular note are the following features:
-- Mobile:
-    - The Nav Bar is a drop down menu on vertical mobile screens to allow for better use of screen real-estate.
-    - On the Starter Quests page, the quest tables are not visible on a vertical mobile due to their size. There is a warning that advises users to rotate their phone or access the site on a larger screen (such as a tablet or laptop) to see the tables.
-- All pages use CSS Flexbox to ensure that page responsiveness is achieved.
 
-### Responsiveness Screenshot GIFs
-
-#### Home Page
-![Home Page - Responsiveness GIF](/documentation/testing-images/testing-home-page-responsiveness.gif)
-
-#### Starter Quests Page
-![Starter Quests Page - Responsiveness GIF](/documentation/testing-images/testing-starter-page-responsiveness.gif)
-
-#### Beginner Tips Page
-![Beginner Tips Page - Responsiveness GIF](/documentation/testing-images/testing-beginner-tips-page-responsiveness.gif)
-
-#### Contact Us Page
-![Contact Us Page - Responsiveness GIF](/documentation/testing-images/testing-contact-us-page-responsiveness.gif)
-
-#### Form Submitted Page
-![Form Submitted Page - Responsiveness GIF](/documentation/testing-images/testing-form-submitted-responsiveness.gif)
 
 # Validation
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
