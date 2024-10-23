@@ -16,7 +16,7 @@
 ### DevTools iPad Pro Simulation
 ![Testing - Chrome DevTools - iPad Pro Simulation](/documentation/testing-images/testing-devtools-ipad.png)
 
-## Features Testing
+## Manual Testing
 - The following tests were conducted to ensure features were working as intended:
     - Nav Bar:
         - (Mobile & Desktop) Click on the Logo - redirects to the Home page;
