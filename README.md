@@ -151,8 +151,8 @@ The design of the website was created so that users:
     4. Back under the code section at te top of the page, view the deployments on the right hand side, and select the 'Github-Pages' Deployment.
 
 ### Local Deployment
-- In order to make a local copy of this project, it can be cloned. In your IDE terminal, type the following command to clone this repository:
-- git clone https://github.com/Morgana-S/horizonvault.git
+- In order to make a local copy of this project, it can be cloned. In your IDE terminal, type the command below to clone this repository:
+    - ``` git clone https://github.com/Morgana-S/horizonvault.git ```
 
 
 ## Credits
