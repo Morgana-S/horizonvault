@@ -168,6 +168,12 @@ main {
 
 /* Starter Quest Page Styles */
 
+#mobile-viewport-warning{
+    border: 3px solid #ff7c01;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
 /* Whitespace Element at bottom of Starter Quests & Beginner Tips */
 
 .whitespace-element{
