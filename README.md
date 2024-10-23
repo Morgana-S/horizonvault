@@ -125,10 +125,10 @@ The design of the website was created so that users:
 ![Contact Us - Desktop Version](/documentation/feature-images/contact-us-desktop.png)
 
 ## Testing & Bugs
-- For Testing and Bugs, please view the TESTING.md file within the documentation folder.
+- For Testing and Bugs, please view the [TESTING.md](/TESTING.md) file.
 
 ## Validation & Accessibility
-- For information on each page's Validation & Accessibility features, please the the TESTING.md file within the documentation folder.
+- For information on each page's Validation & Accessibility features, please the the [TESTING.md](/TESTING.md) file.
 
 ## Tools
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Page structure and content.
