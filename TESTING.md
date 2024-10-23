@@ -95,9 +95,7 @@ All pages are responsive in design and designed with a mobile-first design princ
 - **[Feedback]** Hovering over items in the footer highlights the individual navigation list elements, but the entirety of the li is not clickable, which means that it is possible to click an area that darkens when hovering, and have the area not be interactable.
     - When designing for future projects that require a navigation bar, I will ensure that the entirety of the element's hover area is clickable for ease of use by end-users.
 
-
-
-# Validation
+# Code Validation
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
 
 ## Home Page
