@@ -95,6 +95,7 @@ The design of the website was created so that users:
 - This information is arranged in a table format, with info on things that would be of interest to users, such where to start the quest, rewards, and useful notes about the quests.
 - The page has the option to select from quests in a particular city by selecting the image of the city's icon, which takes the user to the appropriate part of the page.
 - On vertical mobile devices, the tables are too bulky to display in a reasonable fashion. A warning message exists for vertical mobile users to either rotate their phone horizontally or view the table on a tablet or laptop screen.
+- Each of the external links, as with the rest of the site, has an ARIA Label to ensure accessibiity and ease of use for people who use screen readers to browse the site.
 
 ![Starter Quests - Mobile Version](/documentation/feature-images/starter-quests-mobile.png)
 
