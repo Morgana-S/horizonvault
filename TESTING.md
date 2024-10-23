@@ -64,7 +64,7 @@ All pages are responsive in design and designed with a mobile-first design princ
         - Nav Bar and Footer works correctly, as detailed above.
     - Contact Us Page:
         - Nav Bar and Footer works correctly, as detailed above.
-        - Form Submission does not currently work - this is outside of the scope of this project at present and as the form is not posted to a URL, this is working as intended.
+        - Form Submission did not work at time of testing due to being a post method form - this is now a get method form and takes the user to a Form Submitted page when submitted.
         - Full Name Input was not being validated at the time of testing - please see bugs section below. This has now been rectified to validate for input.
         - Email submission field was tested by just putting random characters - confirmed that form will ask for correctly formated email address before submission is allowed.
         - Reason for Contact Input was not being validated at the time of testing - please see bugs section below. This has now been rectified to validate for input.
