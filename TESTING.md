@@ -98,17 +98,20 @@ All pages are responsive in design and designed with a mobile-first design princ
 # Code Validation
 Each page was validated on the W3C HTML Validator and W3C Jigsaw CSS Validator, as shown below:
 
-## Home Page
+## HTML - Home Page
 ![Home Page - W3C HTML Validation](/documentation/testing-images/validation-html-homepage.png)
 
-## Starter Quests Page
+## HTML - Starter Quests Page
 ![Starter Quests - W3C HTML Validation](/documentation/testing-images/validation-html-starterquests.png)
 
-## Beginner Tips Page
+## HTML - Beginner Tips Page
 ![Beginner Tips - W3C HTML Validation](/documentation/testing-images/validation-html-beginnertips.png)
 
-## Contact Us Page
+## HTML - Contact Us Page
 ![Contact Us - W3C HTML Validation](/documentation/testing-images/validation-html-contactus.png)
+
+## HTML - Form Submitted Page
+![Form Submitted - W3C HTML Validation](/documentation/testing-images/validation-html-formsubmitted.png)
 
 ## Project CSS Validation
 ![W3C CSS Validation](/documentation/testing-images/validation-css.png)
