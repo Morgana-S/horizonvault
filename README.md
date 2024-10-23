@@ -122,12 +122,21 @@ The design of the website was created so that users:
 - The Contact Us page contains a form where the user can provide their contact information and a brief message about their query.
 - The page also contains a direct link to the project's GitHub Issues page, so that users can submit issues they have with the site, should they find any.
 - The form contains fields for the user's full name, email address, and reason for contact.
+    - The input and textarea fields validate for an input with a required html attribute.
     - The Email Address field validates for whether the user has included a correctly formated email address, i.e. it checks for an @ symbol in the text entry field.
-    - A textarea field with a specified number of columns has been created for the user's reason for contact, to ensure that there is adequate space for the user to enter their query.
+    - A textarea field with matching size to the input fields indicates to users that they can write a longer message in the field. The field is also resizeable vertically.
 
 ![Contact Us - Mobile Version](/documentation/feature-images/contact-us-mobile.png)
 
 ![Contact Us - Desktop Version](/documentation/feature-images/contact-us-desktop.png)
+---
+### Form Submitted Page
+- The Form Submitted Page is reached by submitting the form on the Contact Us page above.
+- The page confirms that the form was submitted and allows users to go back to the website's homepage.
+
+![Form Submitted - Mobile Version](/documentation/feature-images/form-submitted-mobile.png)
+
+![Form Submitted - Desktop Version](/documentation/feature-images/form-submitted-desktop.png)
 
 ## Testing & Bugs
 - For Testing and Bugs, please view the [TESTING.md](/TESTING.md) file.
