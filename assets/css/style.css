@@ -264,6 +264,11 @@ textarea {
     padding: 0.2rem;
 }
 
+.form-container input,
+.form-container textarea{
+    transition: background-color 0.2s ease 0s
+}
+
 .form-container textarea{
     width: 100%;
     resize: vertical;
@@ -436,6 +441,11 @@ footer {
     }
 
     /* Contact Us Page */
+
+    .form-container input:hover,
+    .form-container textarea:hover{
+        background-color: #C0EBA6;
+    }
 
     #form-submit-button:hover {
         background-color: #003972;
