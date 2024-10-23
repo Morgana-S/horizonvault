@@ -75,11 +75,14 @@ The design of the website was created so that users:
     - The HorizonXi Wiki;
     - The project's GitHub page.
 - All of the above links open in a new window, as is standard practice for external sites.
-- Footer is responsive and easily navigable on both small and larger screens.
+- Footer is responsive and easily navigable on both small and larger screens..
+- Hover Effect on Footer links to demonstrate interactivity.
 
 ![Footer - Mobile Version](/documentation/feature-images/footer-mobile.png)
 
 ![Footer - Desktop Version](/documentation/feature-images/footer-desktop.png)
+
+![Footer - Hover Effect GIF](/documentation/feature-images/footer-hover.gif)
 ---
 ### Home Page
 - The Homepage acts as enticement and a brief introduction to the website.
