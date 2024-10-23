@@ -38,6 +38,8 @@ The design of the website was created so that users:
 
 ## Features
 
+**Please Note:** Some of the features displayed in the below screenshots may not reflect the current state of the site due to changes in formatting. Features are still accurate to the original version of the site.
+
 ### Navigation Bar
 - Navigation Bar with fixed position at the top of the page.
 - Contains links to the following site pages:
