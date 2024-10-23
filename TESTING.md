@@ -5,14 +5,15 @@
     - Mobile
     - Chrome DevTools Tablet Mode (simulating an iPad Pro)
 
+### Microsoft Edge
 ![Testing - Desktop PC - Microsoft Edge](/documentation/testing-images/testing-homepage-edge.png)
-
+### Mozilla Firefox
 ![Testing - Desktop PC - Mozilla Firefox](/documentation/testing-images/testing-homepage-firefox.png)
-
+### Google Chrome
 ![Testing - Desktop PC - Google Chrome](/documentation/testing-images/testing-homepage-chrome.png)
-
+### Mobile Phone (Chrome Mobile Browser)
 ![Testing - Mobile](/documentation/testing-images/testing-homepage-mobile.png)
-
+### DevTools iPad Pro Simulation
 ![Testing - Chrome DevTools - iPad Pro Simulation](/documentation/testing-images/testing-devtools-ipad.png)
 
 ## Features Testing
